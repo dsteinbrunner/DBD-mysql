@@ -920,7 +920,7 @@ method like so:
   $dbh = DBI->connect("DBI:mysql:database=$db;host=$host",
 		      $user, $password, {RaiseError => 1});
 
-Once you have connected to a database, you can can execute SQL
+Once you have connected to a database, you can execute SQL
 statements with:
 
   my $query = sprintf("INSERT INTO foo VALUES (%d, %s)",
@@ -2078,7 +2078,7 @@ Tim Bunce.
 The current incarnation of B<DBD::mysql> was written by Jochen Wiedmann,
 then numerous changes and bug-fixes were added by Rudy Lippan. Next,
 prepared statement support was added by Patrick Galbraith and
-Alexy Stroganov (who also soley added embedded server
+Alexy Stroganov (who also solely added embedded server
 support).
 
 For the past seven years DBD::mysql has been maintained by
