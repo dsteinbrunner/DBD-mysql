@@ -49,7 +49,7 @@ http://www.activestate.com for details.
 =item MySQL
 
 You need not install the actual MySQL database server, the
-client files and the devlopment files are sufficient. For
+client files and the development files are sufficient. For
 example, Fedora Core 4 Linux distribution comes with RPM files
 (using YUM) B<mysql.i386> and B<mysql-server.i386> (use "yum search" 
 to find exact package names). These are sufficient, if the MySQL 
@@ -376,7 +376,7 @@ the same name, that replies
   
 =head2 Compiler flags
 
-Note: the folling info about compiler and linker flags, you shouldn't have
+Note: the following info about compiler and linker flags, you shouldn't have
 to use these options because Makefile.PL is pretty good at utilising
 mysql_config to get the flags that you need for a successful compile.
 
@@ -504,7 +504,7 @@ Below you find information on particular systems:
 
 If you are a user of Cygwin (the Redhat distribution) you already
 know, it contains a nicely running perl 5.6.1, installation of
-additional modules usually works as a charme via the standard
+additional modules usually works like a charm via the standard
 procedure of
 
     perl makefile.PL
@@ -523,12 +523,12 @@ You MUST compile the MySQL clients yourself under Cygwin, to get a
 'libmysqlclient.a' compiled under Cygwin. Really! You'll only need
 that library and the header files, you don't need any other client parts.
 Continue to use the Windows binaries. And don't attempt (currently) to
-build the MySQL Server part, it is unneccessary, as MySQL AB does an
+build the MySQL Server part, it is unnecessary, as MySQL AB does an
 excellent job to deliver optimized binaries for the mainstream
 operating systems, and it is told, that the server compiled under Cygwin is
 unstable.
 
-Install MySQL (if you havn't already)
+Install MySQL (if you haven't already)
 
 =over
 
@@ -784,7 +784,7 @@ L</Linker flags>.
 
 Red Hat 8 & 9 set the Default locale to UTF which causes problems with 
 MakeMaker.  To build DBD::mysql on these systems, do a 'unset LANG' 
-before runing 'perl Makefile.PL'
+before running 'perl Makefile.PL'
 
 =back
 
